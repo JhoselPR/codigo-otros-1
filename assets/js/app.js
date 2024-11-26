@@ -1,7 +1,7 @@
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
-const $n = document.querySelector('name');
-const $b = document.querySelector('#blog');
+const $n = document.querySelector('.name');//Son clases
+const $b = document.querySelector('.blog');//Son clases
 const $l = document.querySelector('.location');
 
 async function displayUser(username) { //La función debe ser asíncrona porque estamos utilizando un fetch
